@@ -16,7 +16,7 @@
 </head>
 <body background="images/wp.jpg">
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="withdraw.html">Withdraw</a></li>
             <li><a href="deposit.html">Deposit</a></li>
             <li><a href="trans.html">Fund transfer</a></li>
@@ -24,25 +24,25 @@
             <li><a href="details.html">Account details</a></li>
             <li><a href="searchaccount.html">Account Search</a></li>
             <li><a href="deleteaccount.html">Delete Account</a></li>
-            <li><a href="update.html">Update details</a></li>
+            <li><a href="update.html" class="active">Update details</a></li>
               </ul>
 <div class="container" align="center">
         
                 <div class="jumbotron jumbotron-fluid">
               
-                <h1><font color="orange">MUMBAI BANK</font></h1>
+                <h1><font color="white">UPDATE ACCOUNT DETAILS</font></h1>
                 
-                <form action="addNewBankAccount.do" method="post">
+                <form action="/action_page.php">
                     <br> 
                     </div>
                     <fieldset>
-                      <legend>NEW ACCOUNT:</legend>
-                      Name<br>
-                      <input type="text" name="customerName" value="Mickey"><br><br>
-                      Account type<br>
-                      <input type="text" name="account_type" value="saving" title="Enter valid account type"><br><br>
-                      Balance<br>
-                      <input type="text" name="balance" value="234234" ><br><br>
+                      <legend>Update details:</legend>
+                      Account ID<br>
+                      <input type="text" name="accountid" value="1212"><br><br>
+                    Updated name<br>
+                      <input type="text" name="updatedname" value="Ben" title="Enter valid account type"><br><br>
+                    Updated account type<br>
+                      <input type="text" name="updatedtype" value="SAVING" ><br><br>
                       
                       <br><input type="submit" value="Submit" align="center">
                       <br>
